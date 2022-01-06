@@ -1,0 +1,133 @@
+body{
+    font-family: 'Merriweather', serif;
+
+
+}
+
+.vertival-line h1::before{
+    content: "";
+    height: 106px;
+    width: 5px;
+    background: orangered;
+    float: left;
+    margin-right: 15px;
+}
+
+.increase-size{
+    font-size: 46px;
+}
+
+.color-22{
+    color: orangered;
+}
+
+.my-name{
+    color: rgb(172, 23, 68);
+}
+
+.flex-part{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.my-img{
+    height: 400px;
+    width: 380px;
+    
+}
+
+.link-button{
+    
+    
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient( 45deg, rgb(238, 46, 39), rgb(240, 196, 101), rgb(241, 33, 33));    
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-indent: 50px;
+    margin-top: 50px;      
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.to-center{
+    text-align: center;
+    color: rgb(172, 23, 68);
+    font-size: 38px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.box1{
+    width: 250px;
+    border: 5px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    background-color: rgb(250, 217, 222);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img img{
+    width: 100%;
+    height: 200px;
+}
+
+.to-align{
+ text-align: center;
+ color: rgb(172, 23, 68);
+}
+
+.hobby{
+    width: 450px;
+    display: flex;
+    
+}
+
+.hobby img{
+    width: 100%;
+    height: 200px;
+}
+
+.one-for-flex{
+    display: flex;
+    margin: 10px;
+}
+
+.heading-hobby{
+    font-size: 40px;
+    color: rgb(95, 6, 58);
+}
+
+.mission{
+    color: rgb(238, 46, 39);
+}
+.number{
+    color: rgb(92, 7, 19);
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+
+
+.paragraph-deco{
+   color: orangered;
+}
